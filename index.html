@@ -12,64 +12,60 @@
     </header>
     <main>
         <form>
-            <fieldset>
-                <legend>How we help you?</legend>
-                
-                <div>
-                    <label for="name">Your Name:</label>
-                    <input type="text" id="name" name="name" required>
-                </div>
-                
-                <div>
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required>
-                </div>
-                
-                <div>
-                    <label for="phone">Phone Number:</label>
-                    <input type="tel" id="phone" name="phone">
-                </div>
-                
-                <div>
-                    <label for="message">Message:</label>
-                    <textarea id="message" name="message" rows="4" required></textarea>
-                </div>
-                
-                <div>
-                    <label for="find">How did you find us?</label>
-                    <select id="find" name="find">
-                        <option value="">Select</option>
-                        <option value="google">Google</option>
-                        <option value="friend">Friend</option>
-                        <option value="social">Social Media</option>
-                        <option value="other">Other</option>
-                    </select>
-                </div>
-            </fieldset>
-            
-            <fieldset>
-                <legend>How should we reply?</legend>
-                
-                <div>
-                    <input type="radio" id="call" name="reply" value="call">
-                    <label for="call">Call me</label>
-                </div>
-                <div>
-                    <input type="radio" id="emailReply" name="reply" value="email">
-                    <label for="emailReply">Send me an email</label>
-                </div>
-                <div>
-                    <input type="radio" id="dontReply" name="reply" value="none">
-                    <label for="dontReply">Don't reply</label>
-                </div>
-            </fieldset>
+            <h2>How can we help you?</h2>
             
             <div>
-                <input type="checkbox" id="terms" name="terms" required>
-                <label for="terms">Accept terms</label>
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" required>
             </div>
             
             <div>
+                <label for="email">Your E-Mail Address</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            
+            <div>
+                <label for="phone">Your Phone Number</label>
+                <input type="tel" id="phone" name="phone">
+            </div>
+            
+            <div>
+                <label for="message">Your Message</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+            
+            <div>
+                <label for="find">How did you find us?</label>
+                <select id="find" name="find">
+                    <option value="">Web Search</option>
+                    <option value="google">Google</option>
+                    <option value="friend">Friend</option>
+                    <option value="social">Social Media</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            
+            <h2>How should we reply?</h2>
+            
+            <div>
+                <input type="radio" id="call" name="reply" value="call">
+                <label for="call">Call me</label>
+            </div>
+            <div>
+                <input type="radio" id="emailReply" name="reply" value="email">
+                <label for="emailReply">Send me an email</label>
+            </div>
+            <div>
+                <input type="radio" id="dontReply" name="reply" value="none">
+                <label for="dontReply">Don't reply</label>
+            </div>
+            
+            <div>
+                <input type="checkbox" id="terms" name="terms" required>
+                <label for="terms">Accept Terms</label>
+            </div>
+            
+            <div class="form-actions">
                 <button type="reset">Clear</button>
                 <button type="submit">Submit</button>
             </div>
